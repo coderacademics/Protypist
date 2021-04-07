@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/backgroundimg.jpg);
+    /* margin: 0; */
+    padding: 0;
+}
+.text{
+  
+    list-style: none;
+    display: inline;
+}
+#para{
+    color: rgb(148, 148, 148);
+    /* font-size: 2em; */
+    font-family: sans-serif;
+    
+    /* padding: 0.1em; */
+    list-style: none;
+    display: inline;
+}
+.letter{
+    color: rgb(148, 148, 148);
+    font-size: 1.5em;
+    font-family: 'Fira Code', monospace;
+    /* font-family: sans-serif; */
+    display: inline-block;
+    /* margin: -0.1em; */
+    
+}
+#text1{
+    color: rgb(148, 148, 148);
+    font-size: 2em;
+    font-family: sans-serif;
+    word-spacing: .3em;  
+    justify-content: center;  
+    margin: auto;
+    padding: auto;
+}
+.color_white
+{
+    color: rgb(211, 209, 209);
+}
+.color_red{
+    color: rgb(231, 105, 105);
+}
+.paragraph{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+}
