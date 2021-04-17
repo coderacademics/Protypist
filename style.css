@@ -52,3 +52,13 @@ body{
      */
      content-visibility: hidden;
 }
+.controls{
+    text-align: center;
+    margin-top: 3em;
+}
+.btn{
+    
+    /* padding: 1.5em; */
+    background-color: transparent;
+    color: rgb(211, 209, 209);
+}
