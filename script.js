@@ -53,12 +53,12 @@ document.querySelector(".btn2").addEventListener("click",function()
     if(c.classList.contains("play"))
     {
     document.querySelector(".btn2").classList.add("pause");
-    document.querySelector(".btn2").innerHTML=`<i class="fas fa-pause"></i>`;
+    document.querySelector(".btn2").innerHTML=`<i class="fas fa-pause fa-2x"></i>`;
     document.querySelector(".btn2").classList.remove("play");
     }
     else{
         document.querySelector(".btn2").classList.add("play");
-        document.querySelector(".btn2").innerHTML=`<i class="fas fa-play"></i>`;
+        document.querySelector(".btn2").innerHTML=`<i class="fas fa-play fa-2x"></i>`;
         document.querySelector("btn2").classList.remove("pause");
     }
     
