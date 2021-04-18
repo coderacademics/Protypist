@@ -33,7 +33,7 @@ for (var i =( Math.random() * (len - 1))%500; i >= 0; i--) {
     }
     else {
         x = `<li class="letter">` + s.charAt(i) + `</li>`;
-        console.log(s.charAt(i));
+        // console.log(s.charAt(i));
     }
     document.getElementById("para").insertAdjacentHTML("afterend", x);
 }

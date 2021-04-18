@@ -2,42 +2,48 @@ var i = 0;
 var correct = 0;
 var wrong = 0;
 
-document.addEventListener("keypress", function (event) {
+document.addEventListener("keypress",worker);
+function worker (event) {
     var key = event.key;
    
-    
+    if(i<document.querySelectorAll(".letter").length)
+    {
         var audio = new Audio("audio/keypress.mp3");
         audio.play();
 
+        var text = document.querySelectorAll(".letter")[i].innerText.charAt(0);
     
 
-
-    var text = document.querySelectorAll(".letter")[i].innerText.charAt(0);
-    
-
-    if (key == text) {
-        document.querySelectorAll(".letter")[i].classList.add("color_white");
-        correct++;
-    }
-    
-    else {
-        if(text==" ")
-        {
-
-           wrong=wrong;
+        if (key == text) {
+            document.querySelectorAll(".letter")[i].classList.add("color_white");
+            correct++;
         }
-        else{
-            wrong++;
-            document.querySelectorAll(".letter")[i].classList.add("color_red");
+        
+        else {
+            if(text==" ")
+            {
+    
+               wrong=wrong;
+            }
+            else{
+                wrong++;
+                document.querySelectorAll(".letter")[i].classList.add("color_red");
+            }
         }
+        i++;
     }
-    i++;
+       
+
+
+   
+  
     if(i>=document.querySelectorAll(".letter").length)
     {
         console.log("The no. of correct typed letters are:"+correct);
         console.log("The no. of wrong typed letter are:"+wrong);
+        document.removeEventListener("keypress",worker);
     }
-});
+}
 
 document.querySelector(".btn2").addEventListener("click",function()
 {
