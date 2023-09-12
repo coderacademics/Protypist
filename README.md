@@ -4,6 +4,12 @@
 
 Protypist is a touch typing practice website created using Node.js, JavaScript, EJS template, HTML, and CSS. It allows users to improve their typing speed and accuracy by practicing typing exercises. Whether you're preparing for government exams like SSC CGL or just want to become a more efficient typist, Protypist can help you achieve your goals.
 
+## Website Link
+
+[Protypist](https://protypist-com.onrender.com/)
+
+The website is live using free server hosted at **Render**
+
 ## Features
 
 - **Customizable Practice:** Choose the approximate number of words and set the practice time according to your preferences.
