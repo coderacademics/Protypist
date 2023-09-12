@@ -1,0 +1,322 @@
+body {
+    background-image: url(/images/new_background.jpg);
+    background-size: cover;
+    /* GLOBAL STYLES */
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.opacity-container {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    opacity: 0.5;
+    z-index: -2;
+}
+
+.main-container {
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+    height: 50vh;
+    width: 70vw;
+    /* border: 2px solid white; */
+    text-align: center;
+}
+
+.typing-heading {
+    /* border: 2px solid red; */
+    display: inline-block;
+
+}
+
+.typing-heading h1 {
+    color: #fff;
+    overflow: hidden;
+    font-size: 7em;
+    width: fit-content;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+
+    letter-spacing: .15em;
+
+    animation:
+        typing 7s steps(25) infinite,
+        blink-caret .7s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    0% {
+        width: 0
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+
+.control {
+    text-align: center;
+    /* border: 2px solid lime; */
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text {
+
+    list-style: none;
+    display: inline;
+}
+
+#para {
+    color: rgb(148, 148, 148);
+    font-family: sans-serif;
+    list-style: none;
+    display: inline;
+}
+
+.letter {
+    color: rgb(148, 148, 148);
+    font-size: 1.5em;
+    font-family: 'Fira Code', monospace;
+    display: inline-block;
+}
+
+#text1 {
+    color: rgb(148, 148, 148);
+    font-size: 2em;
+    font-family: sans-serif;
+    word-spacing: .25em;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.color_white {
+    color: rgb(211, 209, 209);
+}
+
+.color_red {
+    color: rgb(231, 105, 105);
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.hidden {
+    content-visibility: hidden;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.btn {
+    background-color: transparent;
+    color: rgb(211, 209, 209);
+}
